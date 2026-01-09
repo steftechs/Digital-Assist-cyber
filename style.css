@@ -1,0 +1,7 @@
+body{font-family:Arial;background:#f4f6f8}
+header{background:#0b3c5d;color:#fff;padding:20px;display:flex;justify-content:space-between}
+.whatsapp-header{background:#25D366;color:#fff;padding:10px;border-radius:20px;text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.card{background:#fff;padding:20px;border-radius:8px;cursor:pointer}
+.service-detail{display:none;background:#fff;padding:20px;margin-top:20px}
+button{background:#16a34a;color:#fff;padding:10px;border:none;border-radius:6px}

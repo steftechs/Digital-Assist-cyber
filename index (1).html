@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Assist Cyber & Online Services | Nyahururu</title>
+<meta name="description" content="Digital Assist Cyber & Online Services in Nyahururu">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Digital Assist Cyber & Online Services</h1>
+<a href="https://wa.me/254702514363" class="whatsapp-header">WhatsApp Us</a>
+</header>
+
+<section>
+<h2>Select a Service</h2>
+<div class="grid">
+<div onclick="openService('ecitizen')" class="card">eCitizen Services</div>
+<div onclick="openService('kra')" class="card">KRA Services</div>
+<div onclick="openService('helb')" class="card">HELB Services</div>
+</div>
+</section>
+
+<section id="details">
+<div id="ecitizen" class="service-detail">
+<h3>eCitizen Services</h3>
+<button onclick="sendWhatsApp('eCitizen Services')">Request via WhatsApp</button>
+</div>
+<div id="kra" class="service-detail">
+<h3>KRA Services</h3>
+<button onclick="sendWhatsApp('KRA Services')">Request via WhatsApp</button>
+</div>
+<div id="helb" class="service-detail">
+<h3>HELB Services</h3>
+<button onclick="sendWhatsApp('HELB Services')">Request via WhatsApp</button>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
